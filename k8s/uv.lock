@@ -6,9 +6,6 @@ resolution-markers = [
     "python_full_version < '3.11'",
 ]
 
-[options]
-prerelease-mode = "allow"
-
 [[package]]
 name = "allure-pytest"
 version = "2.15.0"
@@ -2294,7 +2291,7 @@ test = [
     { name = "juju" },
     { name = "lightkube" },
     { name = "lightkube-models" },
-    { name = "ops", extras = ["testing"] },
+    { name = "ops", extras = ["testing"], specifier = "==3.4.0b1" },
     { name = "pyhcl" },
     { name = "pytest" },
     { name = "pytest-operator" },

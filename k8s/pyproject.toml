@@ -32,7 +32,7 @@ test = [
     "juju",
     "lightkube",
     "lightkube-models",
-    "ops[testing]",
+    "ops[testing]==3.4.0b1",
     "pyhcl",  # import hcl
     "pytest",
     "pytest-operator",
